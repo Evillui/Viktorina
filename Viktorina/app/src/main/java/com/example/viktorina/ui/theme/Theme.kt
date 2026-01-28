@@ -9,7 +9,6 @@ import androidx.compose.ui.graphics.Color
 
 private val LightColorScheme = lightColorScheme(
     primary = SakuraPink,
-    secondary = SkyBlue,
     tertiary = MintGreen,
     background = Color.White,
     surface = PastelYellow,
@@ -21,9 +20,6 @@ private val LightColorScheme = lightColorScheme(
 )
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Pink80,
-    secondary = PurpleGrey80,
-    tertiary = SkyBlue,
     background = Color(0xFF121212),
     surface = Color(0xFF1E1E1E),
     onPrimary = Color.Black,
