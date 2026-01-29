@@ -25,7 +25,7 @@ fun ResultScreen(
     totalQuestions: Int,
     onRestart: () -> Unit
 ) {
-    val percentage = (correctAnswers.toFloat() / totalQuestions) * 100
+    val percentage = if (totalQuestions == 0) 0f else (correctAnswers.toFloat() / totalQuestions) * 100
 
     Surface(
         modifier = Modifier.fillMaxSize(),

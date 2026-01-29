@@ -1,7 +1,11 @@
 package com.example.viktorina.data
 
-object QuizRepository {
-    fun getQuizQuestions(): List<Question> = listOf(
+interface QuizRepositoryContract {
+    fun getQuizQuestions(): List<Question>
+}
+
+object QuizRepository : QuizRepositoryContract {
+    override fun getQuizQuestions(): List<Question> = listOf(
         Question(
             id = 1,
             question = "Какой инструмент добывает алмазную руду быстрее всего?",

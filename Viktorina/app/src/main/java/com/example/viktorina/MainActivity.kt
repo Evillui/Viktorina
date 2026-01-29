@@ -16,6 +16,8 @@ import com.example.viktorina.ui.theme.QuizAppTheme
 import com.example.viktorina.viewmodel.QuizEvent
 import com.example.viktorina.viewmodel.QuizViewModel
 import com.example.viktorina.viewmodel.Screen
+import com.example.viktorina.data.QuizRepository
+import com.example.viktorina.viewmodel.QuizViewModelFactory
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +37,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun QuizApp() {
-    val viewModel: QuizViewModel = viewModel()
+    val viewModel: QuizViewModel = viewModel(
+        factory = QuizViewModelFactory(QuizRepository)
+    )
     val uiState = viewModel.uiState.value
 
     when (uiState.currentScreen) {
