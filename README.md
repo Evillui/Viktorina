@@ -1,1 +1,8 @@
-# Viktorina
+ФИО: Бузанов Никита Вячеславович
+Группа: Б9123-09.03.03пикд
+Тема: Майнкрафт
+Скриншот главноего экрана: https://github.com/Evillui/Viktorina/pull/1/commits/90087244b39760e9bfa18cd5fbd97d9af9bb16e3#diff-27c7d7eff2b5b71ef517667d2e65b45fb20eead1b071ec2932726bb2cac1d90a
+Скриншот примера вопросов: https://github.com/Evillui/Viktorina/pull/1/commits/90087244b39760e9bfa18cd5fbd97d9af9bb16e3#diff-6d23a681f39cdc81fceba06b960d1881d7a943d72c1a90946cb3386d9e4117ce
+Скриншот плохого результата: https://github.com/Evillui/Viktorina/pull/1/commits/90087244b39760e9bfa18cd5fbd97d9af9bb16e3#diff-24f7b4f89ee50abef434e749db529c6af32617b49b6fe841f8c7f0efa0f9ec4d
+Скриншот среднего результата: https://github.com/Evillui/Viktorina/pull/1/commits/90087244b39760e9bfa18cd5fbd97d9af9bb16e3#diff-8036373413f8bd99bf5646a9476a7a3805a4dad3de3321fb7a4638ceb9d95ce4
+Скриншот хорошего результата: https://github.com/Evillui/Viktorina/pull/1/commits/90087244b39760e9bfa18cd5fbd97d9af9bb16e3#diff-43f137444702e8074771dd51824d906267edeb4298a2dee0377f2696c504d2f1
